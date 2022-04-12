@@ -10,10 +10,16 @@ color: ${({ theme: { theme } }) =>
       'white'};
 }
 
-a, .header_btn:hover {
+a, .header_btn:hover  {
   color : ${({ theme: { theme } }) =>
     theme === themeList.light ? '' :
       'white'};
+}
+
+.line2  {
+  color : ${({ theme: { theme } }) =>
+    theme === themeList.light ? '' :
+      'black'};
 }
 
 
@@ -90,7 +96,7 @@ a:hover{
 .section2, .team-section1, .wrep{
   background-color: ${({ theme: { theme } }) =>
     theme === themeList.light ? '#e9fbf8' :
-      '#1a202c'};
+      '#171923'};
   }
 
 .site, .drum, .sit {
@@ -105,10 +111,10 @@ a:hover{
       '#2d3748'};
   }
 
-  .section7 {
+  .section7, .section4 {
   background-color: ${({ theme: { theme } }) =>
     theme === themeList.light ? '' :
-      'black'};
+      '#171923'};
  }
 
  .logo-container {
@@ -128,144 +134,28 @@ a:hover{
     theme === themeList.light ? '' : 'none'};
      }
      
-     .backgroun {
-      display: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : 'none'};
-     }
-     .section3img{
+     .search input[type=text] {
       background-color: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : '#319795'};
-     }
-
-     .clients-section1 {
-      background-image: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : 'none'};
-     }
-     .clients-section1{
-      background-color: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : '#319795'};
-     }
-     .clchead, .clcpar{
-      color: ${({ theme: { theme } }) =>
     theme === themeList.light ? '' : 'white'};
      }
 
-     .section5 {
-      background-image: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : 'none'};
-     }
-     .section5{
-      background-color: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : '#319795'};
-     }
-     .sect5heading, .sect5par{
-      color: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : 'white'};
-     }
-
-     .page-footer {
-      background-image: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : 'none'};
-     }
-     .page-footer {
-      background-color: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : '#319795'};
-     }
-
-    .logo h1, .parto li, .parto h3, .social, .ftpar{
-      color: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : 'white'};
-     }
-
-     .service-section1 {
-      background-image: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : 'none'};
-     }
-     .service-section1 {
-      background-color: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : '#319795'};
-     }
-     .sschead, .sscpar{
-      color: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : 'white'};
-     }
-
-     .team-section1 {
-      background-image: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : 'none'};
-     }
-     .team-section1 {
-      background-color: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : '#319795'};
-     }
-     .tmchead, .tmcpar{
-      color: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : 'white'};
-     }
-
-    
 
 
-     .news-section1 {
-      background-image: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : 'none'};
-     }
-     .news-section1 {
-      background-color: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : '#319795'};
-     }
-     .nwchead, .nwcpar{
-      color: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : 'white'};
-     }
-
-      .kev, .kevi {
-      background-color: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : '#319795'};
-     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+     @media only screen and (max-width: 875px) {
+      
+    }
      
-     .clcont{
-      : ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : 'black'};
-     }
-
-
-     {
+    
+    {
       color: ${({ theme: { theme } }) =>
     theme === themeList.light ? '' : 'white'};
      }
 
-  body, .section4 {
+  body {
          background-color: ${({ theme: { theme } }) =>
     theme === themeList.light
       ? 'white'
-      : '#171923'};
+      : '#1a202c'};
     }
 `;
 

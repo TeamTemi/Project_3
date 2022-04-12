@@ -48,7 +48,18 @@ const Footer = () => {
           </ul>
           <ul className='parto'>
             <li>
-              <h3 className="set">Languages</h3>
+              <div>
+              <select class="set">
+  <option value="" class="ret">Languages</option>
+  <option value="" class="ret">Swahili</option>
+  <option value="" class="ret">Portugese</option>
+  <option value="" class="ret">Italian</option>
+  <option value="" class="ret">French</option>
+  <option value="" class="ret">Spanish</option>
+  <option value="" class="ret">English</option>
+  <option value="0"></option>
+</select>
+              </div> 
             </li>
           </ul>
 
