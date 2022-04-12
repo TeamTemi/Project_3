@@ -1,0 +1,116 @@
+.widen {
+    width: 100%
+  }
+  
+  .widecontainer {
+    background-image: url(../../../Assets/Images/Group56.svg);
+    background-position: bottom right, 40%;
+    background-repeat: no-repeat;
+    background-size: 15em;
+    width: 100%;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .green {
+      width: 65%;
+      margin: auto;
+  }
+
+  .green>img {
+      width: 100%;
+      height: 100%;
+  }
+
+  .wcard {
+    width: 600px;
+    height: 200px;
+    background-color: rgb(253, 249, 249);
+    border-radius: 10px;
+    box-shadow: 0px 47px 30px 0px rgba(7, 0, 59, 0.12);
+    margin-top: -45px;
+  }
+  
+  .widecontent {
+    margin: 20px 82px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .widepar {
+    font-family: var(--font-family-secondary);
+    color: #000000;
+    padding-bottom: 20px;
+    font-size: 0.8em;
+    line-height: 22px;
+    width: 118%;
+    
+  }
+  
+  .wideheading {
+    font-family: "DM Sans", sans-serif;
+    padding-bottom: 15px;
+    font-size: 0.9rem;
+  }
+  
+  
+  .upperboarder {
+    width: 100%;
+    height: 2%;
+    background-color: var(--primary-color);
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 1px 80px 0px #7bcde3;
+  }
+
+
+
+  
+ 
+  @media only screen and (max-width: 659px) {
+    
+    
+    .widecontent {
+      margin: 30px 30px;
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .widepar {
+      font-family: var(--font-family-secondary);
+      color: #000000;
+      padding-bottom: 20px;
+      font-size: 0.75em;
+      line-height: 22px;
+    }
+    
+    .wideheading {
+      font-family: "DM Sans", sans-serif;
+      padding-bottom: 15px;
+      font-size: 0.9rem;
+    }
+
+    .wcard {
+      width: 300px;
+      height: 300px;
+      background-color: rgb(253, 249, 249);
+      border-radius: 10px;
+      box-shadow: 0px 47px 30px 0px rgba(7, 0, 59, 0.12);
+    }
+
+    .upperboarder {
+      width: 100%;
+      height: 2%;
+      background-color: var(--primary-color);
+      border-radius: 10px 10px 0px 0px;
+      box-shadow: 0px 1px 80px 0px #7bcde3;
+    }
+  }
+  

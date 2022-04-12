@@ -1,0 +1,94 @@
+.team-section1 {
+    background-image: url(../../../Assets/Images/Group\ 11032.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 40px;
+    padding-bottom: 120px;
+    height: auto;
+    background-color:var(--primary-color);
+    margin-bottom: 10px;  
+}
+.tmcont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tmchead {
+    font-family: var(--font-family-primary);
+    font-size: 35px;
+}
+
+.tmcpar {
+    width: 45%;
+    font-size: 15px;
+    line-height:20px;
+    text-align:center;
+    font-family: 'DM Sans', sans-serif;
+    opacity: 50%;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 700px) {
+    .tmchead {
+        font-size: 21px;
+    }
+    
+    .tmcpar{
+        width: 60%;
+        font-size: 13px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 620px) {
+    .tmchead {
+    
+        font-size: 19px;
+    }
+
+
+
+    .team-section1 {
+      
+        padding: 30px;
+        padding-bottom: 60px;
+        margin-bottom: 1px;  
+    }
+
+}
+
+@media only screen and (max-width: 545px) {
+    .tmcpar {
+        width: 80%;
+        font-size: 11px;
+    }
+    
+}
+
+@media only screen and (max-width: 425px) {
+
+    .tmchead {
+    
+        font-size: 15px;
+    }
+
+    .tmcpar {
+        width: 100%;
+        font-size: 11px;
+    }
+
+
+    .team-section1 {
+      
+        padding: 10px;
+        padding-bottom: 70px;
+        margin-bottom: 1px;  
+    }
+
+    /* padding: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 1px;   */
+} 
+

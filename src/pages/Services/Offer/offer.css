@@ -1,0 +1,68 @@
+.service-section1 {
+    background-image: url(../../../Assets/Images/Group\ 11032.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 80px;
+    background-color:var(--primary-color);
+    margin-bottom: -50px;
+}
+
+.sscont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sschead {
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 35px;
+}
+
+.sscpar{
+    width: 45%;
+    font-size: 15px;
+    line-height:20px;
+    text-align:center;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 10px;
+    opacity: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+    .sschead {
+        /* margin-top: 70px; */
+        font-size: 25px;
+    }
+    
+    .sscpar{
+        width: 65%;
+        font-size: 15px;
+        /* margin-top: 10px; */
+        
+    }
+}
+
+
+@media only screen and (max-width: 468px) {
+    .sschead {
+        /* margin-top: 60px; */
+        font-size: 20px;
+    }
+    
+    .sscpar{
+        /* width: 65%; */
+        font-size: 12px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 388px) {
+    .sschead {
+    
+        font-size: 18px;
+    }
+}

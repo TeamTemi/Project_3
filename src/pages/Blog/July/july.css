@@ -1,0 +1,90 @@
+.drum {
+    width: 276px;
+    height: auto;  
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 47px 30px 0px rgba(7, 0, 59, 0.12);
+    position: relative;
+  }
+
+  .pic>img {
+      width: 100%;
+      height: 100%;
+  }
+
+  .pic {
+      width: 128%;
+      margin-bottom: 20px;
+  }
+
+  .contex {
+    margin: 0px 30px;
+    /* padding-top: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family-secondary);
+    padding-bottom: 22px;
+    
+  }
+
+  .drumpara {
+    font-family: var(--font-family-secondary);
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    padding-bottom: 10px;
+    font-size: 0.85rem;
+    line-height: 22px;
+    text-shadow: 0px 4px 4px 0px hsla(0, 0%, 0%, 0.25);
+    width: 104%;
+    opacity: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .drumheading {
+    font-family: "DM Sans", sans-serif;
+    padding-bottom: 5px;
+    font-size: 1rem;
+    width: 118%;
+ 
+  }
+
+  .kev {
+    font-family: var(--font-family-secondary);
+    color: #ffffff;
+    width: 130px;
+    height: 38px;
+    font-size: 0.75em;
+    font-weight: 500;
+    background: hsla(170, 68%, 63%, 1);
+    border-radius: 20px;
+    border: transparent;
+  }
+
+  .wrep {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 280px);
+      justify-content: center;
+      align-items: center;
+      color:#ffffff;
+      grid-column-gap: 5px;
+      grid-row-gap: 33px;
+      margin-top: 10px;
+      
+  }
+
+  .kevi {
+      width: 60px;
+      height: 30px;
+      position: absolute;
+      top: 10px; 
+      left: 10px; 
+      border-radius: 20px;
+      background-color: hsla(170, 68%, 63%, 1);
+      color: #ffffff;
+      font-family: var(--font-family-primary);
+      border: transparent;
+    
+  }

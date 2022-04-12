@@ -1,0 +1,12 @@
+.empt {
+    width: 100%;
+    height: auto;
+}
+
+.pet {
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    border: transparent;
+    margin-bottom: 20px;   
+}

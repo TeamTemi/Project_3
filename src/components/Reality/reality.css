@@ -1,0 +1,149 @@
+.section4 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url(../../Assets/Images/Group56.svg),url(../../Assets/Images/Group56.svg),url(../../Assets/Images/Group56.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: right top, left top,left bottom;
+    background-size: 10%, 20%, 20%;  
+    margin-bottom: 80px;
+}
+
+.content4{
+    background-image: url(../../Assets/Images/workremote.svg),url(../../Assets/Images/Group11041.svg) ; 
+    background-repeat: no-repeat, no-repeat;
+    background-position:  right bottom, right center;
+    background-size: 35%, 30%;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.section4content{
+    width: 70%;
+    margin: auto;
+}
+
+.subsection4 {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px; 
+}
+
+.contentheading {
+    font-size: 20px;
+    font-family: var(--font-family-primary);
+    color: var(--primary-color);
+}
+
+.subsection4heading {
+    font-size: 30px;
+    font-family: var(--font-family-primary);
+    color: black;
+    padding-bottom: 10px;
+    margin-top: 120px;
+    /* background-image: url(../../Assets//Images/Group56.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 20%; */
+}
+
+.subsection4text {
+    width: 68%;
+    font-size: 14px;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 18px;
+    color: #636363;
+    font-weight: 500;
+
+}
+
+.contentpar {
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 15px;
+    font-weight: 500;
+    color: #636363;
+}
+
+.analyse2{
+    width: 80%
+}
+.no1content{
+    width: 40%;
+    margin-right: 8px;
+}
+.no1{
+    display:flex;
+    align-items: center;
+
+}
+.subsection4outline {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: white;
+    align-items: center;
+    box-shadow:  0px 5px 10px 0px #636363;
+    border: none;
+    margin-right: 30px;
+    font-weight: bolder;
+    color:#7bcde3;
+    font-size: 1.3em;
+}
+
+/* .workremote>img {
+    width: 100%;
+    height: 100%;
+}
+
+.workremote {
+    width: 20%; */
+
+
+@media only screen and (max-width: 929px) {
+    .circle {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 629px) {
+    .content4 {
+
+        width: 150%;
+    }
+
+    .content4 {
+        margin-top: 50px;
+    }
+
+    .subsection4 {
+        width: 100%;
+        margin-left: 90px;
+        margin-top: 0;
+    }
+
+    .circle {
+        width: 32px;
+        height: 32px;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .subsection4heading {
+        font-size: 25px;
+    }
+
+    .subsection4text {
+        width: 62%;
+    }
+}

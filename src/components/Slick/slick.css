@@ -1,0 +1,243 @@
+.section3{
+    width: 100%;
+    margin: auto;  
+    position: relative;
+     margin-bottom: 80px; 
+}
+
+.section3b {
+    width: 100%;
+    margin: auto;
+}
+
+
+.portfolio {
+    font-family: var(--font-family-primary);
+    color:#7bcde3;
+}
+
+.our {
+    font-size: 35px;
+    font-family: var(--font-family-primary);
+}
+
+.section3flex{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    font-size:10px;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 30px;
+    color:#7bcde3; 
+    font-family: var(--font-family-primary)
+}
+
+.sect3head {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:  60px;
+    margin-bottom: 30px;
+}
+
+.section3img {
+    width: 80%;
+    display: flex;
+    /* gap: 0.5em; */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 30px; 
+    margin-bottom: 30px;
+}
+
+.img-container2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family-secondary);
+    line-height: 1.5em;
+    color: var(--color-secondary);
+}
+
+.img-container2>img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-containerco {
+    width: 88%;
+    margin-top: 15px;
+    font-family: var(--font-family-primary);
+    font-size: 0.7em;
+    font-weight: normal;
+    line-height: 23.64px;
+}
+
+/* .sect3-box {
+    background-position: center;
+    background-image: url(../../Assets/Images/Ornament.svg); 
+    background-repeat: no-repeat;
+    background-size: 300%;
+
+} */
+
+.img-container2 {
+    width: 90%;  
+}
+
+.btnopt{
+    height: 50px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 25px;
+    font-family: var(--font-family-primary);
+    color:#7bcde3;
+    font-size: 15px;
+    font-weight: bold;
+    border-color:#7bcde3;
+    /* margin-left: 30px; */
+
+    background: transparent;
+}
+
+.seeall {
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    border-color: white;
+    background-color: hsla(0, 5%, 15%, 1);
+    color:#e9fbf8;
+    margin: auto;
+    /* margin-top: 100px; */
+    display: flex;
+
+    /* top: 80px; */
+    align-items: center;
+    justify-content: center;
+    box-shadow:  0px 10px 70px 30px var(--primary-color);
+}
+
+.backgroun >img {
+    width: 100%;
+    height: 100%;
+}
+
+.backgroun {
+    width: 100%;
+    position: absolute;
+    top: 280px;
+    z-index: -1;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .section3img {
+        width: 80%;
+        display: flex;
+        gap: 0.5em;
+    
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 30px;  
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 891px) {
+    .img-containerco {
+        width: 85%;
+        margin-top: 10px;
+        font-size: 0.6em;
+        font-weight: lighter;
+        line-height: 15px;
+    }
+    
+    .section3img {
+        width: 80%;
+        display: flex;
+        gap: 0.5em;
+    
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        /* padding: 30px;  */
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 688px) {
+    .seeall {
+        display: none;
+    }
+
+    .section3flex{
+        width: 80%;
+
+        display: flex;
+        font-size: 8px;
+        gap: 30px;
+    }
+
+    .backgroun {
+        width: 100%;
+        position: absolute;
+        top: 250px;
+    }
+
+    .sect3head{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top:  60px;
+        margin-bottom: 30px;
+    }
+
+    .btnopt{
+        height: 35px;
+        width: 150px;
+        font-size: 11px;
+        margin-left: 30px;
+        background: transparent;
+    }
+
+    
+.our {
+    font-size: 30px;
+}
+    
+    
+}
+
+@media only screen and (max-width: 480px) {
+.img-containerco {
+    width: 100%;
+    font-size: 0.7em;
+    font-weight: lighter;
+    line-height: 23.64px;
+}
+
+/* .section3flex{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    font-size:10px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+   
+} */
+
+
+}
+
+

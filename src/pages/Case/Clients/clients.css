@@ -1,0 +1,53 @@
+.clients-section1 {
+    background-image: url(../../../Assets/Images/Group\ 11032.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 70px;
+    background-color:var(--primary-color);
+    margin-bottom: 50px;
+}
+
+.clcont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+}
+
+.clchead {
+    /* margin-top: 100px; */
+    font-family: var(--font-family-primary);
+    font-size: 35px;
+}
+
+.clcpar{
+    width: 75%;
+    font-size: 15px;
+    line-height:20px;
+    text-align:center;
+    font-family: 'DM Sans', sans-serif;
+    opacity: 65%;
+}
+
+@media only screen and (max-width: 564px) {
+    .clchead {
+        font-size: 25px;
+    }
+    
+    .clcpar{
+        font-size: 12px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 388px) {
+    .clchead {
+    
+        font-size: 20px;
+    }
+} 

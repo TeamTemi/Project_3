@@ -1,0 +1,151 @@
+.section7{
+  width: 100%;
+  height: auto;
+  margin-top: auto;
+  background-color: #e9fbf8;
+}
+.sect7content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  width: 110%;
+  
+}
+.flex1{
+  margin-left: 50px;
+  width: 40%;
+  
+}
+.news{
+  color:#7bcde3;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: var(--font-family-primary);
+}
+.slide1{
+  width: 100%; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 50px;
+  padding-bottom: 80px;
+
+
+  }
+.blog{
+  font-family: var(--font-family-primary);
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.sit{
+  width:250px;
+  height: 245px;
+ 
+  background-color:white;
+  margin-right: 0px;
+  border-radius: 10px;
+  background-repeat:no-repeat;
+  margin-right: 20px;
+  box-shadow: 0px 1px 60px 0px rgba(7, 0, 59, 0.12);
+}
+.conte{
+  
+  margin: 30px 30px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+.blogpar{
+  font-family: var(--font-family-secondary);
+  color: var(--color-secondary);
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.btnseeAll{
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid;
+  border-color: var(--primary-color);
+  background-color: transparent;
+}
+
+
+@media only screen and (max-width: 989px) {
+  .sect7content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+
+
+  .readmore {
+    display: none;
+  }
+
+
+  .slide1 {
+    margin-top: 40px;
+  }
+
+  .blog {
+    margin-bottom: 20px;
+  }
+
+  .sit {
+    width: 228px;
+    height: 220px;
+    margin-right: 15px;
+  }
+
+  .sitepara {
+    width: 88%;
+    line-height: 14px;
+    margin-bottom: 20px;
+  }
+
+  .blogpar {
+    margin-bottom: 10px;
+    width: 120%;
+  }
+
+  .btnseeAll {
+    width: 100px;
+    height: 30px;
+    margin: auto;
+  } 
+}
+
+  @media only screen and (max-width: 748px) {
+    .sect7content {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .slide1 {
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 220px);
+      justify-content: center;
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+      padding-bottom: 50px;
+    }
+
+    .flex1 {
+      margin: auto;
+      margin-left: 20px;
+    }
+
+    .blogpar {
+      width: 100%;
+
+    }
+  }
