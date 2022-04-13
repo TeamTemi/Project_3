@@ -4,7 +4,7 @@ import themeList from '../data/themeList'
 
 const GlobalStyles = createGlobalStyle`
 .heading1, .paragragh1, .sitepar, .service, .our, .servicepar, .siteheading, .review, .comment, .five, .name, 
- .blogpar, .blog, .drumheading, .drumpara, .sitepara, .hamburger svg, .wideheading, .widepar, .img-containerco, .btnseeAll {
+ .blogpar, .blog, .drumheading, .drumpara, .sitepara, .hamburger svg, .wideheading, .widepar, .btnseeAll {
 color: ${({ theme: { theme } }) =>
     theme === themeList.light ? 'black' :
       'white'};
@@ -111,10 +111,16 @@ a:hover{
       '#2d3748'};
   }
 
-  .section7, .section4 {
+  .section7 {
   background-color: ${({ theme: { theme } }) =>
     theme === themeList.light ? '' :
       '#171923'};
+ }
+
+ .section4 {
+  background-color: ${({ theme: { theme } }) =>
+    theme === themeList.light ? '' :
+      '#1a202c'};
  }
 
  .logo-container {
@@ -135,16 +141,13 @@ a:hover{
      }
      
      .search input[type=text] {
-      background-color: ${({ theme: { theme } }) =>
+    background-color: ${({ theme: { theme } }) =>
     theme === themeList.light ? '' : 'white'};
      }
 
-
-
      @media only screen and (max-width: 875px) {
       
-    }
-     
+    }     
     
     {
       color: ${({ theme: { theme } }) =>

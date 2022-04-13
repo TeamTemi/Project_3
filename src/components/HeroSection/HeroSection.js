@@ -1,5 +1,6 @@
 import illustrator from '../../Assets/Images/Analyse.svg';
 import "./herosection.css";
+import 'animate.css';
 const HeroSection = () => {
   return (
     <section id="analyse" className="section1">
