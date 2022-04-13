@@ -49,6 +49,12 @@ a, .header_btn:hover  {
       ''}; 
 }
 
+.img-containerco  {
+  color: ${({ theme: { theme } }) =>
+    theme === themeList.light ? '' :
+      'white'}; 
+}
+
 
 .portfolio, .section3flex, .btnopt  {
   color : ${({ theme: { theme } }) =>
@@ -59,7 +65,7 @@ a, .header_btn:hover  {
 
 .testimonial {
   color : ${({ theme: { theme } }) =>
-    theme === themeList.light ? 'black' :
+    theme === themeList.light ? '' :
       '#60e1cb'};
 }
 
@@ -73,12 +79,6 @@ a:hover{
   color : ${({ theme: { theme } }) =>
     theme === themeList.light ? 'black' :
       'white'};
-}
-
-.testimonial {
-  color : ${({ theme: { theme } }) =>
-    theme === themeList.light ? 'black' :
-      '#60e1cb'};
 }
 
 .comment {
@@ -140,14 +140,16 @@ a:hover{
     theme === themeList.light ? '' : 'none'};
      }
      
-     .search input[type=text] {
-    background-color: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : 'white'};
-     }
+    
 
      @media only screen and (max-width: 875px) {
-      
-    }     
+    
+        nav {
+          background-color: ${({ theme: { theme } }) =>
+          theme === themeList.light ? '' : '#2d3748'};
+           }
+      }
+         
     
     {
       color: ${({ theme: { theme } }) =>

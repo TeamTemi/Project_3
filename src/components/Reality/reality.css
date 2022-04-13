@@ -139,10 +139,25 @@
 
 @media only screen and (max-width: 425px) {
     .subsection4heading {
-        font-size: 25px;
+        font-size: 20px;
+        width: 50%;
+        
     }
 
     .subsection4text {
         width: 62%;
     }
+
+    .subsection4text {
+        width: 52%;
+        font-size: 12px;
+   
+        line-height: 15px;   
+}
+
+.contentheading {
+    font-size: 16px;
+ 
+}
+
 }

@@ -92,7 +92,7 @@ export default class AsNavFor extends Component {
       <div className='section6'>
        <div className="sect6cont">
             <h3 className="testimonial">Testimonial</h3>
-            <h1 className="ourhappy">Our happy clients</h1>
+            <h1 className="ourhappy">Our Happy Clients</h1>
         </div>
         <Slider {...settings} 
           asNavFor={this.state.nav2}

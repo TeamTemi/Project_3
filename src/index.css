@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@
 }
 
 :root {
-  --font-family-primary:  "Circular Std Bold";
+  --font-family-primary: 'Poppins', sans-serif;
   --font-family-secondary: "DM Sans", sans-serif;
   --font-size-normal: auto;
   --primary-color: #60e1cb;

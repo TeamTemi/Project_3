@@ -126,10 +126,9 @@ ul h3 {
 
 select .ret  {
     color: black;
-    opacity: 70%;
+    opacity: 100%;
     font-family: var(--font-family-primary);
     font-size: 13px;
-    background: #60E1CB;
 }
 
 @media only screen and (max-width: 564px) {
