@@ -86,7 +86,10 @@
     .section5 {
       background-image: none;
       background-color: #4fd1c5;
-     
+    }
+
+    .imgcontainerco {
+      width: ;
     }
   }
 
@@ -118,8 +121,15 @@
       width: 90%;
     } 
 
+    .sect5heading {
+      font-size: 18px;
+      width: auto;
+     
+    }
+    
+
     .dbutt{
       width: 60%;
-      font-size: 7px;
+      font-size: 8px;
     }   
   }

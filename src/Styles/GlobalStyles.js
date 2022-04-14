@@ -22,8 +22,6 @@ a, .header_btn:hover  {
       'black'};
 }
 
-
-
 .btn1:hover, .ourhappy{
   color : ${({ theme: { theme } }) =>
     theme === themeList.light ? '' :
@@ -42,7 +40,6 @@ a, .header_btn:hover  {
       '#7bc0e3'}; 
 }
 
-
 .stylee  {
   box-shadow: ${({ theme: { theme } }) =>
     theme === themeList.light ? '' :
@@ -55,13 +52,11 @@ a, .header_btn:hover  {
       'white'}; 
 }
 
-
 .portfolio, .section3flex, .btnopt  {
   color : ${({ theme: { theme } }) =>
     theme === themeList.light ? '' :
       '#60e1cb'};
 }
-
 
 .testimonial {
   color : ${({ theme: { theme } }) =>
@@ -126,7 +121,7 @@ a:hover{
  .logo-container {
   background-color: ${({ theme: { theme } }) =>
     theme === themeList.light ? '' :
-      '#edeeee'};
+      'white'};
   }
 
     .subsection4heading, .subsection4text, .contentpar, .ss4par, .ss4head{
@@ -139,23 +134,15 @@ a:hover{
       display: ${({ theme: { theme } }) =>
     theme === themeList.light ? '' : 'none'};
      }
-     
-    
 
+     
      @media only screen and (max-width: 875px) {
-    
-        nav {
-          background-color: ${({ theme: { theme } }) =>
-          theme === themeList.light ? '' : '#2d3748'};
+        a.active {
+          color ${({ theme: { theme } }) =>
+          theme === themeList.light ? 'black' : 'black'};
            }
       }
          
-    
-    {
-      color: ${({ theme: { theme } }) =>
-    theme === themeList.light ? '' : 'white'};
-     }
-
   body {
          background-color: ${({ theme: { theme } }) =>
     theme === themeList.light

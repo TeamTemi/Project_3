@@ -1,10 +1,12 @@
 .widen {
-    width: 100%
+    width: 100%;
+    background-image: url(../../../Assets/Images/Group56.svg);
+    background-position:  top right; 
+    background-repeat: no-repeat;
+    background-size: 15em;
   }
   
   .widecontainer {
-    background-image: url(../../../Assets/Images/Group56.svg);
-    background-position: bottom right, 40%;
     background-repeat: no-repeat;
     background-size: 15em;
     width: 100%;
