@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { useState } from "react";
 import { FiMenu } from "react-icons/fi";
-// import MenuIcon from '@mui/icons-material/MenuRounded';
 import CloseIcon from '@mui/icons-material/CloseRounded';
 import "./header.css";
 import ThemeSwitcher from "../../components/ThemeSwitcher";
@@ -58,10 +57,7 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        {/* <div
-          className="theme"
-        >
-        </div> */}
+
       </div>
       <button className="header_btn">Request a quote</button>
       <div className="switch">
@@ -69,20 +65,20 @@ const Header = () => {
 
       {isMobile && (
         <div
-        className="hamburger"
-        tabIndex="0"
-        role="button"
-        onClick={() => setIsNavOpen(true)}
-        onKeyDown={() => setIsNavOpen(true)}
+          className="hamburger"
+          tabIndex="0"
+          role="button"
+          onClick={() => setIsNavOpen(true)}
+          onKeyDown={() => setIsNavOpen(true)}
         >
           <FiMenu />
-          
+
 
         </div>
       )}
       <div className="stylee">
 
-      <ThemeSwitcher />      
+        <ThemeSwitcher />
       </div>
     </header>
   );

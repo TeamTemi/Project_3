@@ -64,7 +64,7 @@ a, .header_btn:hover  {
       '#60e1cb'};
 }
 
- a:hover, a.active{
+ a:hover{
   font-weight : ${({ theme: { theme } }) =>
     theme === themeList.light ? '' :
       'bolder'};
@@ -139,7 +139,7 @@ a:hover{
      @media only screen and (max-width: 875px) {
         a.active {
           color ${({ theme: { theme } }) =>
-          theme === themeList.light ? 'black' : 'black'};
+    theme === themeList.light ? 'black' : 'black'};
            }
       }
          

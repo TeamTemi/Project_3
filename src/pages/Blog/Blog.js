@@ -1,6 +1,6 @@
 import News from '../../pages/Blog/News/News'
 import July from '../../pages/Blog/July/July'
-import {array }from '../../components/Constants/Constant'
+import { array }from '../../components/Constants/Constant'
 
 const Blog = () => {
   return (
